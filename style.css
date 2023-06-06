@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-image: url('img/patt.png');
 }
 
@@ -46,6 +46,7 @@ body {
 }
 
 .header {
+    font-family: 'Roboto', sans-serif;
     padding: 25px 0;
     background-color: rgba(255, 255, 255, 0.75);
 }
@@ -125,6 +126,7 @@ body {
 
 .search input::placeholder {
     color: #2c71b8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .search-btn {
@@ -212,7 +214,7 @@ body {
     text-decoration: none;
     font-size: 21px;
     height: 40px;
-    padding: 0 30px;
+    padding: 0 20px 0 30px;
     display: flex;
     align-items: center;
 }
