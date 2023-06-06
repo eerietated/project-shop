@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: "Roboto", sans-serif;
     background-image: url('img/patt.png');
 }
@@ -46,7 +46,6 @@ body {
 }
 
 .header {
-    font-family: 'Roboto', sans-serif;
     padding: 25px 0;
     background-color: rgba(255, 255, 255, 0.75);
 }
