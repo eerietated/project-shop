@@ -50,6 +50,10 @@ body {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
+.logo {
+    margin-top: 7px;
+}
+
 .menu {
     display: flex;
 }
@@ -76,4 +80,63 @@ body {
 .menu a:hover {
     color: #fff;
     background-color: #2c71b8;
+}
+
+.arrow-down {
+    border: solid #2c71b8;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin:  0 0 3px 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.col-tail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2c71b8;
+    height: 40px;
+    width: 75%;
+    padding: 5px;
+}
+
+.search input {
+    height: 30px;
+    width: 85%;
+    padding: 5px;
+    border: none;
+    background: transparent;
+    font-size: 21px;
+}
+
+.search input::placeholder {
+    color: #2c71b8;
+}
+
+.search-btn {
+    border: none;
+    background: url('img/icon-4.png') no-repeat center;
+    background-color: #2c71b8;
+    width: 30px;
+    height: 30px;
+}
+
+.shop-btn {
+    border: none;
+    background: url('img/icon-1.png') no-repeat center;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
 }
