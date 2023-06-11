@@ -289,6 +289,7 @@
 /* Main Content */
 .main-content {
     color: #fff;
+    margin-bottom: 60px;
 }
 
 .location-menu {
@@ -339,7 +340,7 @@
 
 /* MAIN ITEMS */
 .main-items {
-    margin: 35px 0;
+    margin: 30px 0 20px 0;
 }
 
 .main-items .item {
@@ -449,4 +450,27 @@
     background: url('img/icon-2.png') no-repeat center;
     height: 20px;
     width: 20px;
+}
+
+.load-more-button {
+    text-align: center;
+    padding: 10px;
+}
+
+.load-more-button .load-btn {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 36px;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100px;
+    color: #2c71b8;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
