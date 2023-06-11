@@ -404,6 +404,70 @@
     background-color: rgba(255, 255, 255, 0.75);
 }
 
+.item .item-bg-img-2 {
+    background: url('img/icon-11.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-3 {
+    background: url('img/icon-13.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-4 {
+    background: url('img/icon-16.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-5 {
+    background: url('img/icon-14.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-6 {
+    background: url('img/icon-12.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-7 {
+    background: url('img/icon-15.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-8 {
+    background: url('img/icon-9.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.item .item-bg-img-9 {
+    background: url('img/icon-13.png') no-repeat center;
+    display: block;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
 .item-img-container {
     display: flex;
     flex-direction: column;
