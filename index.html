@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
     <link rel="stylesheet" href="reset.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,7 +64,18 @@
         </div>
     </header>
     <main class="main">
-        <div class="slide-show"></div>
+        <div class="slider-block">
+            <div class="container">
+                <div class="slider">
+                    <div>Slide #1</div>
+                    <div>Slide #2</div>
+                    <div>Slide #3</div>
+                    <div>Slide #4</div>
+                </div>
+                <div class="prev-arrow slider-arrow"></div>
+                <div class="next-arrow slider-arrow"></div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-3">
@@ -380,6 +395,24 @@
         <span>&#169;</span>
         <p>Copyright 2017</p>
     </footer>
+    <div class="modal hide">
+        <div class="modal-block">
+            <form action="">
+                <div class="btn-close-modal">X</div>
+                <h3>Please call for more details</h3>
+                <div class="form-field">
+                    <input type="text" placeholder="Your name" />
+                </div>
+                <div class="form-field">
+                    <input type="text" placeholder="Your phone" />
+                </div>
+                <button>Send</button>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
