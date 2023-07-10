@@ -519,7 +519,6 @@ button {
 }
 
 .main-items .item {
-    height: 650px;
     border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.1);
     margin-top: 15px;
@@ -769,4 +768,42 @@ button {
 
 .show {
     display: block;
+}
+
+.products-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.products-quantity button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: #2c71b8;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-quantity button:hover {
+    background-color: #fff;
+    color: #2c71b8;
+}
+.products-quantity button:hover:disabled {
+    background-color: #26527e;
+}
+.products-quantity input {
+    background-color: #fff;
+    color: #2c71b8;
+    text-align: center;
+    font-size: 21px;
+    padding: 5px;
+    border: none;
+    height: 30px;
+    width: 100px;
 }
